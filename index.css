@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf2f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4.4375rem 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 1.5rem;
+  font-size: 0.8125rem;
+}
+
+.daniel {
+  width: 20.4375rem;
+  height: 100%;
+  background: #733fc8;
+  border-radius: 0.5rem;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+.daniel-q {
+  content: url(images/bg-pattern-quotation.svg);
+  position: absolute;
+  margin-left: 12.4375rem;
+}
+
+.daniel .daniel-pic {
+  width: 1.75rem;
+  border-radius: 3.125rem;
+
+  border: 2px solid #a775f1;
+}
+.daniel-profile {
+  display: flex;
+
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  gap: 0.625rem;
+}
+
+.daniel-profile h1 {
+  font-size: 0.8125rem;
+  color: #ffffff;
+}
+
+.daniel-profile h1 span {
+  font-size: 0.6875rem;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.daniel-first-paragraph {
+  font-size: 1.25rem;
+  margin: 1.125rem 2rem 2.5rem 2rem;
+  justify-content: center;
+
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+}
+
+.daniel-second-paragraph {
+  font-size: 0.8125rem;
+  color: #cfcfcf;
+  line-height: 1.5;
+  margin: 2.5rem 2rem 2rem 2rem;
+}
+
+/* Jonathan Testemonial*/
+
+.jonathan {
+  width: 20.4375rem;
+  height: 100%;
+  background: #48556a;
+  border-radius: 0.5rem;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+  
+
+.jonathan .jonathan-pic {
+  width: 1.75rem;
+  border-radius: 3.125rem;
+}
+.jonathan-profile {
+  display: flex;
+
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  gap: 0.625rem;
+}
+
+.jonathan-profile h1 {
+  font-size: 0.8125rem;
+  color: #ffffff;
+}
+
+.jonathan-profile h1 span {
+  font-size: 0.6875rem;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.jonathan-first-paragraph {
+  font-size: 1.25rem;
+  margin: 1rem 2rem;
+  justify-content: center;
+
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+}
+
+.jonathan-second-paragraph {
+  font-size: 0.8125rem;
+  color: #cfcfcf;
+  line-height: 1.5;
+  margin: 0 2rem 2rem 2rem;
+}
+
+/*Jeanette Testemunial*/
+
+.jeanette {
+  width: 20.4375rem;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+.jeanette .jeanette-pic {
+  width: 1.75rem;
+  border-radius: 3.125rem;
+}
+.jeanette-profile {
+  display: flex;
+
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  gap: 0.625rem;
+}
+
+.jeanette-profile h1 {
+  font-size: 0.8125rem;
+  color: #48556a;
+}
+
+.jeanette-profile h1 span {
+  font-size: 0.6875rem;
+  color: #48556a;
+  font-weight: 400;
+  stroke: #000000;
+}
+
+.jeanette-first-paragraph {
+  font-size: 1.25rem;
+  margin: 1rem 2rem;
+  justify-content: center;
+
+  color: #48556a;
+  font-weight: 500;
+  position: relative;
+  stroke: #000000;
+}
+
+.jeanette-second-paragraph {
+  font-size: 0.8125rem;
+  color: #48556a;
+  line-height: 1.5;
+  margin: 0 2rem 2rem 2rem;
+  font-weight: 400;
+}
+
+/*Patrick Testemunial*/
+
+.patrick {
+  width: 20.4375rem;
+  height: 100%;
+  background: #19202D;
+  border-radius: 0.5rem;
+  
+}
+
+.patrick .patrick-pic {
+  width: 1.75rem;
+  border-radius: 3.125rem;
+  border: 2px solid #733fc8;
+}
+.patrick-profile {
+  display: flex;
+
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  gap: 0.625rem;
+}
+
+.patrick-profile h1 {
+  font-size: 0.8125rem;
+  color: #ffffff;
+}
+
+.patrick-profile h1 span {
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.patrick-first-paragraph {
+  font-size: 1.25rem;
+  margin: 1rem 2rem;
+  justify-content: center;
+
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+}
+
+.patrick-second-paragraph {
+  font-size: 0.8125rem;
+  color: #cfcfcf;
+  line-height: 1.5;
+  margin: 0 2rem 2rem 2rem;
+}
+
+/*Kira Testemunial*/
+
+.kira {
+  width: 20.4375rem;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  
+}
+
+.kira .kira-pic {
+  width: 1.75rem;
+  border-radius: 50%;
+ 
+}
+.kira-profile {
+  display: flex;
+
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  gap: 0.625rem;
+}
+
+.kira-profile h1 {
+  font-size: 0.8125rem;
+  color: #48556a;
+}
+
+.kira-profile h1 span {
+  font-size: 0.6875rem;
+  color: #48556a;
+  font-weight: 200;
+}
+
+.kira-first-paragraph {
+  font-size: 1.25rem;
+  margin: 1rem 2rem;
+  justify-content: center;
+
+  color: #48556a;
+  font-weight: 500;
+  position: relative;
+}
+
+.kira-second-paragraph {
+  font-size: 13px;
+  color: #48556a;
+  line-height: 1.5;
+  margin: 0 2rem 2rem 2rem;
+}
+
+@media screen and (min-width:800px){
+    .container {
+        display: grid;
+        grid-template-columns: 15.9375rem auto auto;
+        grid-template-rows:  auto auto;
+        gap: 1.5rem;     
+    
+    }
+
+    .daniel {
+      
+      width: 33.75rem;
+      height: auto;
+      margin: 0;
+    }
+
+    .jonathan {
+      width: 15.9375rem;
+      height: auto;
+      justify-self: end;
+    }
+
+    .jeanette {
+      grid-row: 2;
+      width:auto;
+      height: auto;
+      
+    }
+
+    .patrick{
+      width: 33.75rem;
+      height: auto;
+    }
+
+    .kira {
+      grid-column: 3 ;
+      grid-row: 1 / span 2;
+      width: 15.9375rem;
+      
+    }
+
+    .attribution {
+      grid-column: 1 / -1;
+    }
+}
